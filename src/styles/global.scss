@@ -1,0 +1,63 @@
+$defaultFontSize: 16px;
+
+html {
+  font-size: $defaultFontSize;
+  height: 100%;
+}
+
+body {
+  font-size: $defaultFontSize;
+  background-color: white;
+  color: black;
+
+  margin: 0;
+  padding: 0 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+  // font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+h1 {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+p {
+  margin: 0 0 $defaultFontSize 0;
+  line-height: 1.4;
+}
+
+a {
+  color: black;
+
+  &:hover {
+    color: #F34A53;
+  }
+}
+
+svg {
+  width: 0.8rem;
+  fill: inherit;
+}
+
+nav a {
+  display: inline-block;
+  margin-right: $defaultFontSize;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+    color: white;
+  }
+
+  a {
+    color: white;
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "bfhb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/herrweis/bfhb.git"
+  },
+  "author": "Andreas Weis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/herrweis/bfhb/issues"
+  },
+  "homepage": "https://github.com/herrweis/bfhb#readme",
+  "dependencies": {
+    "@turf/bbox": "^6.3.0",
+    "@turf/helpers": "^6.3.0",
+    "gatsby": "^3.1.2",
+    "gatsby-plugin-manifest": "^3.1.0",
+    "gatsby-plugin-react-helmet": "^4.1.0",
+    "gatsby-plugin-robots-txt": "^1.5.5",
+    "gatsby-plugin-sass": "^4.1.0",
+    "mapbox-gl": "^1.13.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "sass": "^1.32.8"
+  }
+}
