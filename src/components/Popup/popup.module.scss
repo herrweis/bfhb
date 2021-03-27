@@ -1,0 +1,90 @@
+.root {
+  color: #fffce0;
+  font-family: "freight-sans-pro", sans-serif;
+  font-size: 1rem;
+  padding: 1rem;
+
+  h3 {
+    font-size: 1.5rem;
+    margin: 0 0 0.5rem 0;
+  }
+
+  a {
+    color: #fffce0;
+    outline: transparent auto 0;
+  }
+
+  address {
+    font-size: 0.8rem;
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    margin: 1rem 0 0.5rem 0;
+    font-weight: bold;
+  }
+}
+
+.burger {
+  display: flex;
+  width: 100%;
+  margin: 0 0 0.5rem 0;
+  padding: 0 0 0.5rem 0;
+  border-bottom: 1px dashed #fffce0;
+
+  &:last-child {
+    border-bottom: 0 transparent;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.label {
+  flex: 2;
+  text-align: left;
+}
+
+.rating {
+  flex: 1;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  svg {
+    width: 1.2rem;
+    fill: #fffce0;
+    margin: 0 0.5rem;
+  }
+}
+
+:global {
+  .mapboxgl-popup {
+    max-width: 30rem !important;
+
+    .mapboxgl-popup-tip {
+      opacity: 0;
+      border: 20px solid transparent;
+    }
+
+    .mapboxgl-popup-content {
+      background-color: #d7189a;
+      box-shadow: 10px 10px 0 black;
+    }
+
+    .mapboxgl-popup-close-button {
+      font-family: "freight-sans-pro", sans-serif;
+      font-weight: bold;
+      font-size: 3rem;
+      right: -2.2rem;
+      top: -3.8rem;
+      outline: transparent auto 0;
+
+      &:hover {
+        background-color: transparent;
+        color: #d7189a;
+      }
+    }
+  }
+}

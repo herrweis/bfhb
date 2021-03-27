@@ -1,5 +1,7 @@
 import React, { useRef, useEffect } from "react"
 import mapboxgl from "mapbox-gl"
+import Popup from "../Popup"
+import { renderToString } from 'react-dom/server'
 import * as styles from "./marker.module.scss"
 
 const Marker = ({ map, place }) => {
@@ -8,12 +10,13 @@ const Marker = ({ map, place }) => {
   const markerElement = document.createElement('div');
   markerElement.innerHTML = markerSVG;
   markerElement.className = styles.marker;
+  const PopupHTML = renderToString(<Popup place={place} />);
 
   useEffect(() => {
     const marker = new mapboxgl.Marker({ element: markerElement})
       .setLngLat([place.longitude, place.latitude])
       .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
-        .setHTML('<h3>' + place.name + '</h3>'))
+        .setHTML(PopupHTML))
       .addTo(map)
 
     return () => marker.remove()

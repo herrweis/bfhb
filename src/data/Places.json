@@ -3,17 +3,42 @@
     {
       "name": "The Blacksmith",
       "longitude": 145.3549625695582,
-      "latitude": -37.90858665072272
+      "latitude": -37.90858665072272,
+      "address": "1/1700 Burwood Hwy, Belgrave VIC 3160",
+      "food": [
+        {
+          "name": "The Blacksmith",
+          "rating": 1
+        },
+        {
+          "name": "The Forge",
+          "rating": 1
+        }
+      ]
     },
     {
       "name": "Flame Tree Burger Bar",
       "longitude": 145.29713689839357,
-      "latitude": -37.8832204151014
+      "latitude": -37.8832204151014,
+      "address": "40 Forest Rd, Ferntree Gully VIC 3156",
+      "food": [
+        {
+          "name": "Rosie",
+          "rating": 1
+        }
+      ]
     },
     {
       "name": "King Henry's",
       "longitude": 145.3512393542138,
-      "latitude": -37.868554532180205
+      "latitude": -37.868554532180205,
+      "address": "320 Mount Dandenong Tourist Rd, Sassafras VIC 3787",
+      "food": [
+        {
+          "name": "Hangman’s Beef Burger",
+          "rating": 1
+        }
+      ]
     }
   ]
 }
