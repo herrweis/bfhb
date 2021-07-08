@@ -10,6 +10,7 @@ const Marker = ({ map, place }) => {
   const markerElement = document.createElement('div');
   markerElement.innerHTML = markerSVG;
   markerElement.className = styles.marker;
+  markerElement.key = place.name;
   const PopupHTML = renderToString(<Popup place={place} />);
 
   useEffect(() => {

@@ -46,7 +46,7 @@ const Map = () => {
           [box[2], box[3]],
         ],
         {
-          padding: 20,
+          padding: 150,
           maxZoom: 13,
           duration: 2000,
         }

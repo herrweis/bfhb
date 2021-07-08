@@ -39,6 +39,18 @@
           "rating": 1
         }
       ]
+    },
+    {
+      "name": "Chieftains Smokehouse",
+      "longitude": 145.49224221409176,
+      "latitude": -37.93587791971599,
+      "address": "34 McBride St, Cockatoo VIC 3781",
+      "food": [
+        {
+          "name": "Smoked Brisket Cheeseburger",
+          "rating": 2
+        }
+      ]
     }
   ]
 }
