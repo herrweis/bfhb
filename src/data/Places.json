@@ -51,6 +51,30 @@
           "rating": 2
         }
       ]
+    },
+    {
+      "name": "Chieftains Fine Foods",
+      "longitude": 145.34501386138075,
+      "latitude": -37.905864407333624,
+      "address": "1549 Burwood Hwy, Tecoma VIC 3160",
+      "food": [
+        {
+          "name": "Smoked Pulled Pork Bun",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "name": "Quarry Bakehouse",
+      "longitude": 145.30999064355723,
+      "latitude": -37.8937788540365,
+      "address": "1212 Burwood Hwy, Upper Ferntree Gully VIC 3156",
+      "food": [
+        {
+          "name": "Quarry Burger",
+          "rating": 2
+        }
+      ]
     }
   ]
 }
